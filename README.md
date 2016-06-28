@@ -1,6 +1,8 @@
 # lunchez
 Lunches for your company
 
+This is a learning project - that's why only one person should be responsible for the code.
+
 ## Codestyle
 
 * https://github.com/bbatsov/ruby-style-guide
