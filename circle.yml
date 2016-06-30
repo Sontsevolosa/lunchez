@@ -9,7 +9,6 @@ machine:
 ## Customize dependencies
 dependencies:
   pre:
-    ##- gem install mime-types-data -v '3.2016.0521'
     - gem install bundler --pre
 
   override:
