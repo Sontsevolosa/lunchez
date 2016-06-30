@@ -11,12 +11,15 @@ html
     = csrf_meta_tags
 
     link href="css/bootstrap.min.css" rel="stylesheet"
-    link href="custom.css" rel="stylesheet"
+    link href="custom.scss" rel="stylesheet"
 
     /[if lt IE 9]
       javascript:
       src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"
       src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"
+    
+    = render 'layouts/header'
+
   body
 
     == yield
