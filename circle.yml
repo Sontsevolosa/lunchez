@@ -1,3 +1,11 @@
+##Customize the test machine
+machine:
+  
+  #Version of ruby to use
+  ruby:
+    version:
+      >= 2.0
+
 ## Customize dependencies
 dependencies:
   pre:
