@@ -10,7 +10,7 @@ machine:
 dependencies:
   pre:
     - gem install bundler --pre
-    - cd config/secrets.yml.example config/secrets.yml
+    - cp config/secrets.yml.example config/secrets.yml
 
   override:
     - bundle install:
