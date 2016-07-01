@@ -10,7 +10,13 @@ machine:
 dependencies:
   pre:
     - gem install bundler --pre
+    - cp config/secrets.yml.example config/secrets.yml
 
   override:
     - bundle install:
         timeout: 180
+
+## Customize test commands
+test:
+  post:
+    - bundle exec rake test
