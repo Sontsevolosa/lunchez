@@ -13,7 +13,7 @@ class LunchesControllerTest < ActionController::TestCase
     assert_response :redirect
   end
 
-  test 'should redirect when user is non logged in' do
+  test 'should redirect to the sign_in path when user is non logged in' do
     get :index
     assert_redirected_to new_user_session_path
   end
