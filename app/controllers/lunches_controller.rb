@@ -1,5 +1,5 @@
 class LunchesController < ApplicationController
   def index
-    render	
+    render
   end
 end
