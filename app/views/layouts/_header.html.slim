@@ -7,5 +7,9 @@ header.navbar class="navbar-fixed-top navbar-inverse"
           = link_to "Home", root_path
         li
           = link_to "Users", '#'
-        li
-          = link_to "Log in", '#'
+        - if user_signed_in?
+          li
+            = link_to "Sign out", destroy_user_session_path
+        - else
+          li
+            = link_to "Log in", '#'
