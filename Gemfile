@@ -19,7 +19,6 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '4.2.0'
-gem 'capybara'
 gem 'poltergeist'
 
 # Use ActiveModel has_secure_password
@@ -36,6 +35,8 @@ group :development, :test do
   gem 'byebug'
   gem 'minitest-reporters'
   gem 'minitest'
+  gem 'capybara'
+  gem 'capybara-screenshot'
 end
 
 group :development do
