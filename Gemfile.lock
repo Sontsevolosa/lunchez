@@ -102,6 +102,7 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     orm_adapter (0.5.0)
+    phantomjs (2.1.1.0)
     pkg-config (1.1.7)
     poltergeist (1.10.0)
       capybara (~> 2.1)
@@ -195,6 +196,7 @@ DEPENDENCIES
   minitest
   minitest-reporters
   mysql2
+  phantomjs
   poltergeist
   rails (= 4.2.5.1)
   sass-rails (~> 5.0)
