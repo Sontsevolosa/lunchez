@@ -5,6 +5,7 @@ class SignoutButtonTest < ActionDispatch::IntegrationTest
     visit root_path
     sign_in users(:default)
     click_button('Log in')
+    assert_text('Hello everyone!')
     visit root_path
     screenshot_and_save_page
     click_on('Sign out')
