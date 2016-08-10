@@ -9,6 +9,6 @@ class SignoutButtonTest < ActionDispatch::IntegrationTest
 
     visit root_path
     click_on('Sign out')
-    assert page.has_content?('Log in'), 'Your page does not have content'
+    assert_text('Log in')
   end
 end
