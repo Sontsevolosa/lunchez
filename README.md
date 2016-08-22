@@ -28,7 +28,7 @@ Always include tests with your code.
 
 1. Choose the next issue from the closest release by next priority:
   * `hotfix`
-  * `bugfix`
+  * `bug`
   * `high_priority`
   * `low_priority`
   * everything else
